@@ -1,0 +1,10 @@
+---
+- hosts: wordpress
+  remote_user: ansible-lab
+  become: yes
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress 
+

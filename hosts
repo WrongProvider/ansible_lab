@@ -1,0 +1,9 @@
+
+[webservers]
+vm1 
+192.168.133.131
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=ansiblelab
+
