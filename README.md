@@ -1,5 +1,3 @@
-# ansible_lab
-# ansible_lab
-# ansible_lab
-# ansible_lab
-# ansible_lab
+# Laboratorio de Ansible
+
+repositorio que contem alguns testes feitos com ansible
