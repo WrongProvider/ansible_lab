@@ -1,3 +1,0 @@
- vc precisa do diretorio roles pq o ansible procura por ele ou
-no /etc/ansible/roles
-:
