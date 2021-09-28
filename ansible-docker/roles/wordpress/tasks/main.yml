@@ -1,0 +1,11 @@
+---
+# tasks file for wordpress
+- name: "Executa o container WordPress"
+  docker_container:
+    name: wordpress
+    image: wordpress
+    links:
+      - "banco:mysql"
+    ports:
+      - "80:80"
+
