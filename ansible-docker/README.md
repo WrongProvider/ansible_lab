@@ -6,4 +6,8 @@ Nessa aplicação distribuida teremos uma imagem de container wordpress e um MyS
 
 `ansible-galaxy init <role>`
 
-### Após isso configuramos o `playbook.yml` com as roles e criaremos as tasks no arquivo `tasks/main.yml` das roles.
+#### Após isso configuramos o `playbook.yml` com as roles e criaremos as tasks no arquivo `tasks/main.yml` das roles.
+
+#### E finalizaremos iniciando o playbook:
+
+`ansible-playbook -i <inventario> <playbook.yml>`
