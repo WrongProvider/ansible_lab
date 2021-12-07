@@ -6,7 +6,7 @@
     instance_type: "{{ inst_flav }}"
     image: "{{ ami }}"
     wait: true
-    group_id: "sg-081a57cacc768707d"
+    group_id: "sg-006f7d1fa8668b1c3"
     count: 1
     vpc_subnet_id: "{{ subnet }}"
     assign_public_ip: yes

@@ -1,11 +1,11 @@
 ---
 # vars file for ec2-instance
 inst_tag: wordpress
-reg_name: ap-south-1
-zone: ap-south-1a
-subnet: subnet-40bab028
-ami: ami-0bcf5425cdc1d8a85
-key_pair: task19
+reg_name: sa-east-1
+zone: sa-east-1c
+subnet: subnet-0053aca5975656c23
+ami: ami-0056d4296b1120bc3
+key_pair: ssh-aws 
 inst_flav: t2.micro
 
 

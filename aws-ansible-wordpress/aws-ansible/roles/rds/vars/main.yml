@@ -1,13 +1,13 @@
 ---
 # vars file for rds
 
-region_name: ap-south-1
-zone: ap-south-1a
+region_name: sa-east-1
+zone: sa-east-1c
 inst_name: mywordpressdb
 eng_name: MySQL
 inst_type: db.t2.micro
 db_name: wordpress
-username: "PUT YOUR USERNAME"
-password: "PUT YOUR PASSWORD"
+username: "teste"
+password: "Passw0rd"
 
 
